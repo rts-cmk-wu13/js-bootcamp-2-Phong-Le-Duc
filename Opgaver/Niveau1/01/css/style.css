@@ -35,15 +35,47 @@ label {
 	margin-bottom: 4px;
 }
 
-	label em {
-		font-weight: normal;
-		color: #aaa;
-		padding-left: 20px;
-	}
+label em {
+	font-weight: normal;
+	color: #aaa;
+	padding-left: 20px;
+}
+
+
+
+/* 
+specificity point 
+element = 1
+class = 10
+id = 100
+"css inline styling i html" =1000
+!important = 10.000 kun for dem som ikke akn finde ud af at skrive css
+
+*/
 
 #my-button {
 	padding: 8px;
 	background-color: #eee;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+
+
+#my-button.click {
+	background-color: greenyellow;
+}
+
+/* #my-button.btn {
+
+	background-color: #1f23fa;
+
+} */
+
+
+
+#my-button-red {
+	padding: 8px;
+	background-color: #fa1d1d;
 	border: 1px solid #aaa;
 	border-radius: 5px;
 }

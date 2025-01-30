@@ -49,6 +49,15 @@ label {
 	border-radius: 5px;
 }
 
+
+
+
+
+
+#buttons > .btn-active {
+	background-color:rgb(242, 94, 183);
+}
+
 #buttons button:focus {
 	outline: none;
 }
