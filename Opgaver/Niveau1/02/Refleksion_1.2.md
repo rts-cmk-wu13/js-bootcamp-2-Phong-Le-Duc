@@ -1,0 +1,1 @@
+stadig lige ha det helt ind med at return skal gribes af en modtager før den kan videre arbejde med result.
